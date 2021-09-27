@@ -1,0 +1,50 @@
+body {
+    background-color: #212121;
+    color: #FFA500;
+    margin: 0;
+}
+
+.space-invader {
+    box-shadow:
+        0       0       0       1em     #FFA500,
+        0       1em     0       1em     #FFA500,
+        -2.5em  1.5em   0       0.5em   #FFA500,
+        2.5em   1.5em   0       0.5em   #FFA500,
+        -3em    -3em    0       0       #FFA500,
+        3em     -3em    0       0       #FFA500,
+        -2em    -2em    0       0       #FFA500,
+        2em     -2em    0       0       #FFA500,
+        -3em    -1em    0       0       #FFA500,
+        -2em    -1em    0       0       #FFA500,
+        2em     -1em    0       0       #FFA500,
+        3em     -1em    0       0       #FFA500,
+        -4em    0       0       0       #FFA500,
+        -3em    0       0       0       #FFA500,
+        3em     0       0       0       #FFA500,
+        4em     0       0       0       #FFA500,
+        -5em    1em     0       0       #FFA500,
+        -4em    1em     0       0       #FFA500,
+        4em     1em     0       0       #FFA500,
+        5em     1em     0       0       #FFA500,
+        -5em    2em     0       0       #FFA500,
+        5em     2em     0       0       #FFA500,
+        -5em    3em     0       0       #FFA500,
+        -3em    3em     0       0       #FFA500,
+        3em     3em     0       0       #FFA500,
+        5em     3em     0       0       #FFA500,
+        -2em    4em     0       0       #FFA500,
+        -1em    4em     0       0       #FFA500,
+        1em     4em     0       0       #FFA500,
+        2em     4em     0       0       #FFA500;
+
+    background: #FFA500;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
